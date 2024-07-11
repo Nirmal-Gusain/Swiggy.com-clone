@@ -1,0 +1,264 @@
+* {
+    font-family: bahnschrift;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+}
+
+.logo img {
+    height: 55px;
+    transition: 0.2s;
+    /* background-color: aliceblue; */
+}
+
+.logo img:hover{
+    scale: 106%;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    margin-left: 120px;
+}
+.nav-items {
+    margin-right: 130px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-items a {
+    color: #404040;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-items div a:hover{
+    color: orangered;
+}
+
+.nav-items div span :hover{
+    color: orangered;
+}
+.fa-solid {
+    color: #404040;
+    margin-right: 8px;
+}
+
+.basic-menu {
+    height: 3350px;
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 20px;
+}
+
+.basic-menu h2 {
+    margin-left: 200px;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.basic-menu-items {
+    padding-bottom: 20px;
+    /* border-bottom: 2px solid rgb(223, 223, 223); */
+    display: flex;
+    margin: 20px 200px;
+    gap: 10px;
+    /* border: 1px solid black; */
+    overflow-x: scroll;
+}
+
+.basic-menu-items::-webkit-scrollbar {
+    display: none;
+}
+
+.basic-menu-items img {
+    padding-top: 20px;
+    width: 150px;
+}
+
+.top-restaurants {
+    width: 74%;
+    margin-left: 190px;
+    /* border: 1px solid red; */
+    height: 350px;
+    display: flex;
+    gap: 30px;
+    overflow: hidden;
+}
+
+.restaurant {
+    height: 350px;
+    width: 258px;
+    /* border: 1px solid rgb(0, 255, 17); */
+}
+ 
+.restaurant img {
+    height: 180px;
+    width: 258px;
+    border-radius: 15px;
+    object-fit: cover;
+    object-position:center;
+    transition: 0.2s;
+}
+.restaurant img:hover{
+    scale:95%;
+}
+.restaurant h4 {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 800;
+    color: rgb(77, 77, 77);
+}
+
+.restaurant i {
+    border-radius: 50%;
+    background-color: green;
+    color: white;
+    height: 18px;
+    width: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 9px;
+    margin-left: 10px;
+}
+
+.restaurant h3{
+    font-size: 17px;
+}
+.restaurant span{
+    margin-left: 10px;
+}
+.online-restaurants{
+    height: 1200px;
+}
+.online-categories{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+
+}
+.category{
+    border: 1px solid grey;
+    height: 35px;
+    width: 80px;
+    border-radius: 50px;
+
+}
+.category span{
+    position: relative;
+    top: 8px;
+    padding: 10px;
+}
+.locations{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    height: 60px;
+    width: 85%;
+}
+.location{
+    height: 50px;
+    border: 1px solid rgb(0, 200, 255);
+    width: 22%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Cuisines{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    height: 60px;
+    width: 85%;
+}
+.cuisine{
+    height: 50px;
+    border: 1px solid grey;
+    width: 22%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Explore{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    height: 60px;
+    width: 85%;
+}
+.expo{
+    height: 50px;
+    border: 1px solid grey;
+    width: 49%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiggy-app{
+    display: flex;
+    height: 100px;
+    padding-right: 18%;
+    padding-left: 18%;
+    margin-top: 100px;
+    background-color: #F0F0F5;
+    justify-content: space-around;
+    align-items: center;
+}
+.swiggy-app h1{
+    font-size: 27px;
+    /* border: 1px solid red; */
+    width: 420px;
+    color: #313338;
+    font-weight: 900;
+}
+.download-img{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.download-img img{
+    width: 200px;
+}
+.footer{
+    background-color: black;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 250px;
+
+}
+.footer-items{
+    width: 220px;
+    height: 450px;
+    margin-top: 40px;
+    color: white;
+}
+.footer-items h1{
+    margin: 15px 0px;
+    font-size: 23px;
+}
+.footer-items p{
+    margin: 15px 0px;
+}
